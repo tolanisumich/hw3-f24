@@ -1,0 +1,63 @@
+  @media screen and (prefers-color-scheme: dark){
+    body h1, body h2{
+      color: DBDB00;
+  
+    }
+    body{
+      background: #575757;
+      color:  yellow;
+    }
+
+    body .grid{
+      background-image: url();
+      background-color: darkslategray;
+    }
+
+    body .grid div{
+      font-size: 150%;
+      line-height: 150%;
+      background-color: #878787;
+      align-content: center;
+    }
+  }
+
+  @media screen and (prefers-reduced-motion: reduce){
+    .gif{
+     
+      display: none;
+    }
+  
+    .static{
+      display: block;
+      margin:auto;
+    }
+    
+  }
+
+/* 
+  @media (orientation: portrait) {
+    .grid {
+      justify-content: center;
+    }
+  
+    body{
+      background-color: lightgrey;
+      border:2px solid white;
+      margin: 50px 0;
+    }
+  }
+  
+  @media (orientation: landscape) {
+      .grid {
+        border:2px solid black;
+        justify-content: space-around;
+      }
+  
+      body{
+        background-color: dark-grey;
+  
+        border:2px solid black;
+        margin: 0 50px;
+      }
+    }
+   */
